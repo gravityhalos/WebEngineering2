@@ -1,0 +1,30 @@
+# Prüfungsaufgabe - Web-Engineering II
+
+## Aufgabe
+„Entwickeln Sie eine Web-Applikation die innerhalb eines Location-Based-Service eine Karte darstellt.
+Innerhalb der Karte soll eine Position (oder aktueller Standort) mit ihren Geo-Koordinaten ausgewählt werden können. Über diese Koordinaten soll mittels Reverse-Geocoding der Ort ermittelt und über Wikipedia die entsprechenden Information zur Örtlichkeit ausgelesen und visualisiert werden"
+
+Anschließend soll die Fahrroute von der gegenwärtigen Position zum ausgewählten Ort dargestellt werden.
+
+## Anforderungen
+- Die Web-Applikation soll möglichst gemäß den Vorgaben einer PWA entsprechend (Progressive-Web-Appli-
+cation, mobile first, responsive,...) umgesetzt werden.
+- Die App soll über "React/JSX", sowie über ein User Experience (Mobility/UI) wie z.B. "Framework7, Ionic oder
+Material UI" und dessen Standardkomponenten umgesetzt werden. Die Karten sollen über OpenStreetMap
+ggf. Leaflet eingebunden werden. Die PWA soll in eine Docker-Umgebung eingebunden werden.
+- Bilden Sie dazu kleine Sprint-Teams (ca. 4-7 Personen pro Sprint-Team) und zerlegen sie die Epic in die ent-
+sprechenden User-Stories und Sprints (Produkt-Backlog, Sprint-Backlog), so dass die Teams eine gleich-
+mäßige Auslastung haben.
+- Definieren Sie einen Scrum-Master (wenn nötig ggf. ein Team von 2 Personen) der das Produkt-Inkrement
+kontrolliert und dem Team beim Sprint-Inkrement beratend und unterstützend zur Seite steht, die (online)-
+Kommunikation untereinander aufrecht erhält, das Ziel ständig kontrolliert und den Product-Owner informiert.
+- Die fertige Lösung soll auf einem GitHub-Repository lauffähig/installierbar veröffentlicht und mir zur Verfügung
+gestellt werden. Der Scrum-Master ist für die vollständige Auslieferung der PWA zum Ende des Vorlesungs-
+quartals oder nach individueller zeitlicher Absprache mit dem Dozenten verantwortlich.
+
+### Empfohlene Literatur
+1. Reverse Geolocation: Nomatim => https://nominatim.org/release-docs/develop/api/Overview/
+2. Infos aus Wikipedia => https://www.mediawiki.org/wiki/API:Tutorial
+3. OpenStreetMap => https://wiki.openstreetmap.org/wiki/DE:Hauptseite
+4. Leaflet => https://leafletjs.com/
+5. Fahrradroute: Routing => https://www.liedman.net/leaflet-routing-machine/
